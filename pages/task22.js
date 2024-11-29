@@ -1,12 +1,12 @@
-import { ImageError } from "next/dist/server/image-optimizer";
 
-export default function Home() {
+
+export default function Task2() {
     return (
         <div className="w-full h-screen flex items-center justify-center bg-black">
     <div className="w-[98%] h-[96%] flex justify-between items-end">
         <div  className="w-24 h-full bg-slate-900 rounded-3xl flex flex-col items-center">
             <div  className="w-12 h-12 rounded-full bg-slate-800 mt-4 flex items-center justify-center">
-                <Image src="https://cdn-icons-png.flaticon.com/512/3944/3944594.png"  className="w-8"/>
+                <img src="https://cdn-icons-png.flaticon.com/512/3944/3944594.png"  className="w-8"/>
             </div>
             <div  className="w-full h-1/2 mt-8 flex flex-col items-center">
                 <div className="w-24 h-24 flex flex-col items-center justify-center">
@@ -55,7 +55,7 @@ export default function Home() {
                 <h1 className="absolute top-16 left-16 text-center"><span
                         className="text-4xl text-white font-semibold">Ulaanbaatar</span><span
                         className="text-slate-400">Chance of rain: 0%</span></h1>
-                <Image src="https://static-00.iconduck.com/assets.00/sun-symbol-emoji-2048x2048-wityey4r.png"
+                <img src="https://cdn-icons-png.flaticon.com/512/979/979585.png"
                     className="h-2/3 mr-16"/>
                 <h1 className="text-6xl absolute left-16 bottom-16 font-bold text-white">16°</h1>
             </div>
@@ -64,35 +64,35 @@ export default function Home() {
                 <div className="w-11/12 h-2/3 mb-8 grid grid-cols-6">
                     <div className="flex flex-col items-center">
                         <h1 className="text-slate-400 font-semibold">6:00 AM</h1>
-                        <Image src="https://freesvg.org/img/weather-overcast.png" className="mt-4 w-2/3"/>
+                        <img src="https://freesvg.org/img/weather-overcast.png" className="mt-4 w-2/3"/>
                         <h1 className="text-white font-bold text-3xl">2°</h1>
                     </div>
                     <div className="flex flex-col items-center">
                         <h1 className="text-slate-400 font-semibold">9:00 AM</h1>
-                        <Image src="https://freesvg.org/img/weather-overcast.png" className="mt-4 w-2/3"/>
+                        <img src="https://freesvg.org/img/weather-overcast.png" className="mt-4 w-2/3"/>
                         <h1 className="text-white font-bold text-3xl">10°</h1>
                     </div>
                     <div className="flex flex-col items-center">
                         <h1 className="text-slate-400 font-semibold">12:00 PM</h1>
-                        <Image src="https://static-00.iconduck.com/assets.00/sun-symbol-emoji-2048x2048-wityey4r.png"
+                        <img src="https://freesvg.org/img/weather-overcast.png"
                             className="mb-2 mt-2 w-2/3"/>
                         <h1 className="text-white font-bold text-3xl">14°</h1>
                     </div>
                     <div className="flex flex-col items-center">
                         <h1 className="text-slate-400 font-semibold">3:00 PM</h1>
-                        <Image src="https://static-00.iconduck.com/assets.00/sun-symbol-emoji-2048x2048-wityey4r.png"
+                        <img src="https://freesvg.org/img/weather-overcast.png"
                             className="mt-2 mb-2 w-2/3"/>
                         <h1 className="text-white font-bold text-3xl">16°</h1>
                     </div>
                     <div className="flex flex-col items-center">
                         <h1 className="text-slate-400 font-semibold">6:00 PM</h1>
-                        <Image src="https://static-00.iconduck.com/assets.00/sun-symbol-emoji-2048x2048-wityey4r.png"
+                        <img src="https://freesvg.org/img/weather-overcast.png"
                             className="mt-2 mb-2 w-2/3"/>
                         <h1 className="text-white font-bold text-3xl">12°</h1>
                     </div>
                     <div className="flex flex-col items-center">
                         <h1 className="text-slate-400 font-semibold">9:00 PM</h1>
-                        <Image src="https://freesvg.org/img/weather-overcast.png" className="mt-4 w-2/3"/>
+                        <img src="https://freesvg.org/img/weather-overcast.png" className="mt-4 w-2/3"/>
                         <h1 className="text-white font-bold text-3xl">6°</h1>
                     </div>
                 </div>
@@ -128,7 +128,7 @@ export default function Home() {
                 <div className="w-full h-[12.8%] flex items-center justify-evenly">
                     <h1 className="text-slate-400 font-semibold">Today</h1>
                     <div className="w-1/3 h-full flex items-center justify-evenly">
-                        <Image  src="https://static-00.iconduck.com/assets.00/sun-symbol-emoji-2048x2048-wityey4r.png"
+                        <img  src="https://cdn-icons-png.flaticon.com/512/979/979585.png"
                             className="w-12"/>
                         <h1 className="font-bold text-white ">Sunny</h1>
                     </div>
@@ -137,7 +137,7 @@ export default function Home() {
                 <div className="w-full h-[12.8%] flex items-center justify-evenly">
                     <h1 className="text-slate-400 font-semibold">Tue</h1>
                     <div className="w-1/3 h-full flex items-center justify-evenly">
-                        <Image src="https://static-00.iconduck.com/assets.00/sun-symbol-emoji-2048x2048-wityey4r.png"
+                        <img src="https://cdn-icons-png.flaticon.com/512/979/979585.png"
                             className="w-12"/>
                         <h1 className="font-bold text-white ">Sunny</h1>
                     </div>
@@ -146,7 +146,7 @@ export default function Home() {
                 <div className="w-full h-[12.8%] flex items-center justify-evenly">
                     <h1 className="text-slate-400 font-semibold">Wed</h1>
                     <div className="w-1/3 h-full flex items-center justify-evenly">
-                        <Image src="https://static-00.iconduck.com/assets.00/sun-symbol-emoji-2048x2048-wityey4r.png"
+                        <img src="https://cdn-icons-png.flaticon.com/512/979/979585.png"
                             className="w-12"/>
                         <h1 className="font-bold text-white ">Sunny</h1>
                     </div>
@@ -155,7 +155,7 @@ export default function Home() {
                 <div className="w-full h-[12.8%] flex items-center justify-evenly">
                     <h1 className="text-slate-400 font-semibold">Thu</h1>
                     <div className="w-1/3 h-full flex items-center justify-evenly">
-                        <Image src="https://cdn-icons-png.flaticon.com/512/4834/4834559.png" className="w-12"/>
+                        <img src="https://cdn-icons-png.flaticon.com/512/4834/4834559.png" className="w-12"/>
                         <h1 className="font-bold text-white ">Cloudy</h1>
                     </div>
                     <h1 className="font-bold text-slate-400"><span className="text-white">20</span>/1</h1>
@@ -163,7 +163,7 @@ export default function Home() {
                 <div className="w-full h-[12.8%] flex items-center justify-evenly">
                     <h1 className="text-slate-400 font-semibold">Fri</h1>
                     <div className="w-1/3 h-full flex items-center justify-evenly">
-                        <Image src="https://cdn-icons-png.flaticon.com/512/4834/4834559.png" className="w-12"/>
+                        <img src="https://cdn-icons-png.flaticon.com/512/4834/4834559.png" className="w-12"/>
                         <h1 className="font-bold text-white ">Cloudy</h1>
                     </div>
                     <h1 className="font-bold text-slate-400"><span className="text-white">22</span>/7</h1>
@@ -171,7 +171,7 @@ export default function Home() {
                 <div className="w-full h-[12.8%] flex items-center justify-evenly">
                     <h1 className="text-slate-400 font-semibold">Sat</h1>
                     <div className="w-1/3 h-full flex items-center justify-evenly">
-                        <Image src="https://cdn-icons-png.flaticon.com/512/4834/4834559.png" className="w-12"/>
+                        <img src="https://cdn-icons-png.flaticon.com/512/4834/4834559.png" className="w-12"/>
                         <h1 className="font-bold text-white ">Cloudy</h1>
                     </div>
                     <h1 className="font-bold text-slate-400"><span className="text-white">25</span>/6</h1>
@@ -179,7 +179,7 @@ export default function Home() {
                 <div className="w-full h-[12.8%] flex items-center justify-evenly">
                     <h1 className="text-slate-400 font-semibold">Sun</h1>
                     <div className="w-1/3 h-full flex items-center justify-evenly">
-                        <Image src="https://cdn-icons-png.flaticon.com/512/1566/1566424.png" className="w-12"/>
+                        <img src="https://cdn-icons-png.flaticon.com/512/1566/1566424.png" className="w-12"/>
                         <h1 className="font-bold text-white ">Stormy</h1>
                     </div>
                     <h1 className="font-bold text-slate-400"><span className="text-white">12</span>/-2</h1>
