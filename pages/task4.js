@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import { useRouter } from "next/router";
 export default function Task4() {
+    const router = useRouter();
     const [grid, setGrid]=useState(false);
      const data =[
         {
@@ -26,6 +28,7 @@ export default function Task4() {
      return (
         <div className="p-6 max-w-4xl mx-auto">
             <div className="flex items-center justify-between mb-6">
+            <p className=" absolute left-5 text-3xl h-16 w-32 rounded-lg hover:bg-gray-700 hover:text-white bg-gray-500 flex items-center justify-center  " onClick={() => router.back()}>Back</p>  
                 <h1 className="text-3xl font-bold ">Нийтлэлүүд</h1>
                 <button onClick={() => setGrid (!grid)}
                     className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">

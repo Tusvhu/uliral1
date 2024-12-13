@@ -1,11 +1,15 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
 export default function Home(){
+    const router = useRouter();
     return(
         <div className="bg-pink-200 h-screen w-screen">
             <div className="bg-pink-300 h-[10%] w-screen flex justify-center items-center space-x-10">
+            <p className=" absolute left-5 text-3xl h-16 w-32 rounded-lg hover:bg-gray-700 hover:text-white bg-gray-500 flex items-center justify-center  " onClick={() => router.back()}>Back</p>
             <h1 className=" text-5xl">Home</h1>
             <h1 className=" text-5xl font-bold">Introduction</h1>
             <h1 className=" text-5xl">Contact</h1>
+            
             </div>
             <div className="flex ml-[30%] items-center jusify-center  h-[90%]  " >
             <div>

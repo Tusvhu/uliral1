@@ -1,6 +1,7 @@
 
-
+import { useRouter } from "next/router";
 export default function Task2() {
+    const router = useRouter();
     return (
         <div className="w-full h-screen flex items-center justify-center bg-black">
     <div className="w-[98%] h-[96%] flex justify-between items-end">
@@ -44,6 +45,9 @@ export default function Task2() {
                     </svg>
 
                     <h1 className="text-slate-600 text-md">Settings</h1>
+                </div>
+                <div className="flex justify-center">
+                <p className=" text-xl h-12 w-20 rounded-lg hover:bg-gray-700 hover:text-white bg-gray-500 flex items-center justify-center  " onClick={() => router.back()}>Back</p>
                 </div>
             </div>
         </div>
