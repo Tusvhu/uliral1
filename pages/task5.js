@@ -9,6 +9,8 @@ const data = [
 ];
 
 export default function Sfilter() {
+
+      const [grid, setGrid]=useState(false);
     const router = useRouter();
     const [search, setSearch] = useState("");
     const filteredData = data.filter((items) =>
