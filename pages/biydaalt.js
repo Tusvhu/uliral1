@@ -29,7 +29,9 @@ export default function Sfilter() {
     const [search, setSearch] = useState("");
     const filteredData = data.filter((items) =>
         items.name.toLowerCase().includes(search.toLowerCase()) ||
-        items.age.toString().includes(search)
+        items.age.toString().includes(search) ||
+        items.hobby.toString().includes(search) ||
+        items.sex.toString().includes(search)
       );
  
   return (
