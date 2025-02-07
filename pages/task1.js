@@ -5,23 +5,26 @@ export default function Home(){
     return(
         <div className="bg-pink-200 h-screen w-screen">
             <div className="bg-pink-300 h-[10%] w-screen flex justify-center items-center space-x-10">
-            <p className=" absolute left-5 text-3xl h-16 w-32 rounded-lg hover:bg-gray-700 hover:text-white bg-gray-500 flex items-center justify-center  " onClick={() => router.back()}>Back</p>
+            <p className=" absolute left-5 text-3xl h-16 w-32 rounded-lg hover:bg-pink-700 hover:text-white bg-pink-200 flex items-center justify-center  " onClick={() => router.back()}>Back</p>
             <h1 className=" text-5xl">Home</h1>
             <h1 className=" text-5xl font-bold">Introduction</h1>
             <h1 className=" text-5xl">Contact</h1>
             
             </div>
-            <div className="flex ml-[30%] items-center jusify-center  h-[90%]  " >
-            <div>
+            <div className="flex ml-[30%] items-center  jusify-center  h-[90%]   " >
+                <div className="h-94 w-1/2 flex hover:scale-150 duration-700">
+                <div>
              <Image className="border-4 border-pink-300" src="/tuvshu.jpg" width={200} height={200}/>
             </div>
-            <div className="ml-10 text-5xl items-start h-[10%] text-pink-500">
+            <div className="ml-10 pt-8 text-5xl items-start h-[10%] text-pink-500">
                 <p>Name:Tuvshin</p>
                 <p>Age:16</p>
                 <p>Hobby:Basketball</p>
                 <p>Fav subject:Frontend</p>
                 
             </div>
+                </div>
+        
             </div>
             <div className="flex justify-center h-screen w-screen bg-pink-500 ">
             <div className="flex items-center justify-center h-auto w-3/4    text-3xl">
